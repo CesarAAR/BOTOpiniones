@@ -1,0 +1,17 @@
+.centrar{
+    display: grid;
+    place-items: center; 
+}
+
+.cButtons{
+    text-align: center;
+}
+
+.logo{
+    height: 150px;
+    text-align: center; 
+}
+
+.cabeza{
+    text-align: right;
+}
