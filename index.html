@@ -2,15 +2,24 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/index.css">
+        <title>Proyecto ProgWeb</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap Files -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    
+        <link rel="stylesheet" href="css/page.css">
         <title>Foro Participación</title>
     </head>
     
     <body>
         <!--Cabecera-->
-        <div class=" logoT d-flex justify-content-center">   
-            <img class="logoT" src="/img/escudo_itt_grande.png">
+        <div class="d-flex flex-row justify-content-center">
+            <img src="img/escudo_itt_grande.png" class="img-fluid logo p-3">
         </div>
+    	<!-- Banner -->
+    	<div class="d-flex banner"></div>
 
         <div class="d-flex justify-content-around my-3 px-5 text-center flex-wrap">            
           <p>
@@ -20,11 +29,76 @@
           </p> 
         </div>
 
+        <div class="d-flex px-5 flex-row justify-content-around my-3 flex-wrap">
+            <div class="callOuts d-flex flex-column flex-fill p-4 mx-2 my-2 my-lg-1 text-center">
+                <img src="img/Post_Icon.png" class="img-fluid mx-auto d-block">
+                <h3>Publicaciones</h3>
+                <p>Analize sus publicaciones con nuestra app.</p>
+            </div>
+            <div class="callOuts d-flex flex-column flex-fill p-4 mx-2 my-2 my-lg-1 text-center">
+                <img src="img/Reception_Icon.png" class="img-fluid mx-auto d-block">
+                <h3>Recepción</h3>
+                <p>Obtenga la recepción de su contenido.</p>
+            </div>
+            <div class="callOuts d-flex flex-column flex-fill p-4 mx-2 my-2 my-lg-1 text-center">
+                <img src="img/DataAnalis.png" class="img-fluid mx-auto d-block">
+                <h3>Análisis</h3>
+                <p>Analizamos las estadísticas recopiladas de su contenido.</p>
+            </div>
+        </div>
+    <!--Sección de mineria-->
+        <div class="d-flex justify-content-center ">
+            <div class="publicacion"></div>
+            <div class="botones-pub">
+                <div class="btn btn-primary">Analizar recepción</div>
+            </div>
+        </div>
+    
+        <div class="d-flex align-items-center px-5 mb-3">
+            <div class="w-25 pl-2">
+                <img src="img/Campaing.jpg" class="img-fluid">
+            </div>
+                <div class="p-2 ml-3 w-75">
+                    <h4>Minería de Datos</h4>
+                    <p>La finalidad de este proyecto es definir un sitio web 
+                        que le proporcione una estadística de las opiniones de una publicación de Facebook.
+                        <br>Esto se hace implementando inteligencia artificial que nos ayuda a analizar las publicaciones
+                        que desean ser analizadas por el usuario.
+                        <br> Esto sirve al usuario para poder medir una recepción de una
+                        publicación que haya hecho y brindarle una herramienta con la cual 
+                        poder planear el siguiente paso de una campaña.
+
+                    </p>
+                </div>
+        </div>
+    
+    
     </body>
-    <footer class="d-flex bottomArea">
-        <p>Equipo 4: 
-            <br>Diego Arturo Cadena Flores 18401089
-            <br>Cesar Alejadnro Alvarez Rodriguez 17400943
-        </p>
-    </footer>
+    <div class="d-flex bottomArea justify-content-center px-5 py-3">
+		<div class="w-60 mr-2">
+			<img class="img-fluid h-30" src="img/escudo_itt_grande.png">
+			<h5 class="mt-3">De nosotros</h5>
+			<p class="ml-2 mt-2">
+				Proyecto Integrador de Programación Web Ittepic.
+			</p>
+		</div>
+		<div class="d-flex flex-column w-20 mt-3">
+			<h5>Contáctenos:</h5>
+			<div><b>Nombre:</b> Diego Arturo Cadena Flores</div>
+			<div><b>Email:</b> diarcadenafl@ittepic.edu.mx</div>
+			<div><b>No.Control:</b> 18401089</div>
+			<div>Nombre: Cesar Alejadnro Alvarez Rodriguez </div>
+			<div><b>No.Control:</b> 17400943</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap Files -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<!-- Page JS -->
+	<script src="js/page.js"></script>
+	<script src="https://kit.fontawesome.com/a390a542df.js" crossorigin="anonymous"></script>
+
 </html>
